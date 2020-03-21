@@ -1,7 +1,5 @@
 *{margin:0px;padding:0px;box-sizing:border-box;font-size:16px;font-family: 'Indie Flower', cursive;color:black;}
-/*Navigation bar*/
-/* #header-nav{background-color: #cccccc;border:2px solid black;border-radius:0;} */
-#header-nav {background-color: #cccccc;border-radius: 0;border: 0;padding:50px;border:2px solid black;}
+#header-nav {background-color: #cccccc;border-radius: 0;border: 0;border:2px solid black;}
 .navbar-header{font-size:3em;}
 #menu{font-size:2em;padding:5px 0;text-align:center;}
 section{width:100%;float:left;padding:10px;margin-bottom:10px;}
@@ -11,11 +9,11 @@ section > div{border:1px solid black;padding:15px;background-color:#cccccc;}
 #nav-list{list-style-type:none;float:right;}
 #nav-list li{display:inline-block;}
 .button{float:right;position:absolute;right:0px;}
-.title{float:left;position:absolute;left:0px;padding:15px;}
+.title{float:left;position:absolute;left:0px;padding-bottom:15px;}
 li a{text-decoration:none;text-align:center;display:block;width:100%;}
 ul{width:100%;text-align:center;}
 ul li a{color:black;}
-.navbar{margin-bottom:0px !Important;}
+.navbar{margin-bottom:0px !Important;min-height:70px !Important;}
 .navbar-collapse {padding-right: 15px !Important;padding-left: 15px !Important;}
 hr{margin-top: 0px !important;margin-bottom: 0px !important;}
 .ul .col-md-12{padding-right: -15px;padding-left: -15px;border:1px solid black;}
